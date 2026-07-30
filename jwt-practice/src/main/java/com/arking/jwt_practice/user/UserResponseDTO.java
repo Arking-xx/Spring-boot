@@ -1,0 +1,19 @@
+package com.arking.jwt_practice.user;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class UserResponseDTO {
+
+    private Long id;
+    private String username;
+    private String firstName;
+    private String lastName;
+
+}
